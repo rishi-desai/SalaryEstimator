@@ -32,6 +32,7 @@ public class SalaryEstimator {
 	 * Which can then be used to make a linear regression model.
 	 */
 	public static void salaryData() {
+		// may need to be changes to represent where you store salaryData.csv
 		String path = "/Users/rishi/Desktop/Projects/SalaryEstimator/resources/salaryData.csv";
 		String line = "";
 		int i = 0;
